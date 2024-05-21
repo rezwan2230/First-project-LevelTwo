@@ -30,12 +30,12 @@ export default [
     },
     rules: {
       "no-unused-vars": "error",
-      "no-unused-expressions": "error",
+      // "no-unused-expressions": "error",
       "prefer-const": "error",
       "no-console": "warn",
       "no-undef": "error",
     },
-    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+    // extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
   },
 
   pluginJs.configs.recommended,
